@@ -1,0 +1,33 @@
+a. * and + has same priority so then: ((a * b) - (1+c))
+
+b. For (++c++) = ((++c)++) , prefix has high precedence.
+
+In remaining operators * and mod has same precedence So evaluate from left to right. ((a * (b - 1)) / (((++c)++) mod d))
+
+There for order of evaluation: ((a * (b - 1)) / (((++c)++) mod d))
+
+c. for (d * e / a - 3), * has high priority so ((d *e) / a - 3). Now / and - have same priority so then see association from left to right. so
+
+And & has more priority than / so then order of evaluation: ((a - b) / (c & (((d * e) / a) - 3))
+
+d. In question d, unary minus(-) has high priority then, - has high priority, then and has high priority and then or has low priority. So then order of evaluation: ((-a) or ((c = d) and e))
+
+e. Here > and <= has high and same precedence then ( a > b) xor c or (d <= 17)
+
+now xor and or has same priority so associates from left to right.
+
+order of evaluation is : ( ((a > b) xor c) or (d <= 17))
+
+
+
+Rewriting the expression where there are no precedence rues and the statement is given right to left associativity:
+
+a. c + 1 - b * a
+
+b. d mod (++c++) / (1 - b) * b
+
+c. (3 - a / e * d) & c / (b - a)
+
+d. e and d = c or -a
+
+e. 17 <= d or c xor b > a
