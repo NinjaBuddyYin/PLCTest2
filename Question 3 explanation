@@ -1,0 +1,1 @@
+In java, This cannot be done. Because all array memory allocations are from heap memory. We can not mention an array explicitly from stack.
