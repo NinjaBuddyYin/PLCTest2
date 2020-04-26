@@ -1,0 +1,38 @@
+a.)	
+a*b-1+c
+(a*b)’-1+c
+(a*b)’-(1+c)^2
+((a*b)’-(1+c)^2)^3
+
+b.)
+t + a *(b-1) +/C%d
+t+a*(b-1)^1 /c %d
+((t+a)^2 + (b-1)^1)^3/c %d
+(((t+a)^2 + (b-1)^1)^3 /c)^4 %d
+((((t+a)^2 * (b-1)^1)^3/c)^4 %d)^5
+
+c.)
+(a-b)/c&(d*e/a-3)
+(a-b)^1/c &((d*e)^2/a-3)
+(a-b)^1/c & (((d*e)^2/a)^3-3)
+(a-b)^1/c & (((d*e)^2/a)^3-3)^4
+(a-b)^1/(c&(((d*e)^2/a)^3-3)^4)^5
+((a-b)^1/(c&(((d*e)^2/a)^3-3)^4)^5)^6
+
+d.)
+(-a)’ or c = d and e
+(-a)’ or (c=d)^2 and e
+(-a)’ or ((c=d)^2 and e)^3
+((-a)^1 or ((c=d)^2 and e)^3)^4
+
+e.)
+(a>b)^1 xor c or (d <= 17)^2
+((a>b)^1 xor c)^3 or (d<=17)^2
+(((a>b)^1 xor c)^3 or (d<=17)^2)^4
+
+
+a.) is fine. 
+b.) d % c / (b-1)* t+a (we cannot remove parenthesis)
+c.) (d*e/a-3) & c/(a-b) (we cannot remove parenthesis)
+d.) e and d = c or -a
+e.) 17 <= d &  c xor b > a ( we cannot write the statement as well)
