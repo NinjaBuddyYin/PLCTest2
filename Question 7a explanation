@@ -1,0 +1,1 @@
+If condition a > b checks the values. If a is greater b, then it will return true and checks if  b > c if b is greater than c then return true so both are true then && operator return true. So if condition become true then print if block. Then print the True.
