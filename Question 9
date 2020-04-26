@@ -1,0 +1,10 @@
+•	a*(b-1)/c mod d  ((a*(b-1)1)2/c)3mod d)4
+•	a>b xor c or d <=17  (((a>b)1 xor c) 3 or(d<=17)2)4
+•	<expr> -> <expr> or <e1> | <expr> xor <e1> | <e1>
+•	<e1> -> <e1> and <e2> | <e2>
+•	<e2> -> <e2> = <e3> | <e2> /= <e3> | <e3> < <e3>
+•	|<e2> <= <e3> | <e2> > <e3> | <e2> >= <e3> | <e3>
+•	<e3> -> <e4>
+•	<e4> -> <e4> + <e5> | <e4> - <e5> | <e4> & <e5> | <e4> mod <e5> | <e5>
+•	<e5> -> <e5> * <e6> | <e5> / <e6> | not <e5> | <e6>
+•	<e6> -> a | b| c | d |e | const | (<expre>)
