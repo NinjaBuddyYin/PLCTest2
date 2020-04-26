@@ -27,13 +27,7 @@ public class rda {
         else{
             if(nextToken == LEFT_PAREN){
                     lex();
-            }
-            else{
-                error();
-            }
-        }
-        else {
-            error();
+       
         }
     System.out.println("Exit <factor>");
 
