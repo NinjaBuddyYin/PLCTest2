@@ -1,1 +1,2 @@
 In java, This cannot be done. Because all array memory allocations are from heap memory. We can not mention an array explicitly from stack.
+After calling all three, we learn that the static array was the fastest, the stack-dynamic array was second, and the heap-dynamic was third. 
