@@ -90,7 +90,7 @@ void TempLevel(int convertedValue)
 
 	convertedValue <= Low ? result = "Temperature is cold" : "";
 
-	convertedValue > Low && convertedValue <= Medium ? result = "Temperature is comfortable" : "";
+	convertedValue > Low && convertedValue <= Medium ? result = "Temperature is ok" : "";
 
 	convertedValue > Medium && convertedValue <= High ? result = "Temperature is hot" : "";
 
