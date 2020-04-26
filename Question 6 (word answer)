@@ -1,12 +1,27 @@
 a. main calls sub1; sub1 calls sub2; sub2 calls sub3.
-Answer:  Sub3 has a x w. Sub2 has b, z. Sub1 has y.
+Answer: 
+Static Scope: main has y,z. Sub2 has b. Sub3 has a,x,w
+Dynamic Scope: Sub3 has a x w. Sub2 has b, z. Sub1 has y.
+
 b. main calls sub1; sub1 calls sub3.
-Answer: Sub 3 has a x w. Sub1 has y z.
+Answer: 
+Static Scope: Sub 3 has a x w. Main has y z.
+Dynamic Scope:  Sub 3 has a x w. Sub1 has y z.
+
 c. main calls sub2; sub2 calls sub3; sub3 calls sub1.
-Answer: Sub1 has a y z, Sub3 has x w. Sub2 has b.
+Answer: 
+Static Scope: Main has x, Sub1 has a,y,z. Sub2 has b. Sub3 has w.
+Dynamic Scope: Sub1 has a y z, Sub3 has x w. Sub2 has b.
+
 d. main calls sub3; sub3 calls sub1.
-Answer: Sub1 has a y z; sub3 has x w.
+Answer: 
+Static Scope: Sub1 has a,y,z. Sub3 has a,x,w
+Dynamic Scope: Sub1 has a,y,z. Main has x. Sub3 has w.
+
 e. main calls sub1; sub1 calls sub3; sub3 calls sub2.
-Answer: Sub2 has a b z, Sub3 has x w; Sub1 has y.
+Static scope: Sub1 has z. Sub2 has a,b,z. Sub3 has a,x,w.
+Dynamic Scope: Main has x,y. Sub2 has a,b,z. Sub3 has w.
+
 f. main calls sub3; sub3 calls sub2; sub2 calls sub1.
-Answer: Sub1 has a y z; Sub2 has b; Sub3 has x w.
+Static Scope: Sub1 has y. Sub2 has b,z. Sub3 has a,x,w.
+Dynamic scope: Sub1 has a,y,z. main has x. Sub2 has b. Sub3 has w.
